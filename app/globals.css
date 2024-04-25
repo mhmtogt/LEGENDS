@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+
+body{
+  font-family: 'Oscald,sans-serif';
+
+}
+
+/* aşağıda yapmış olduğum şey web sayfalarında aşağı yukarı kaydırma yapan genellikle yan taraftak
+ çubuk  (Turkish)*/
+
+/* hide scrollbar for Chrome and Safari*/
+body::-webkit-scrollbar{
+  display: none;
+} 
+
+body{
+
+  -ms-overflow-style: none; /* IE and Edge*/
+  scrollbar-width: none; /*Firefox*/ 
+}
