@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import UpperNavbar from"./components/UpperNavbar";
-
+import UpperNavbar from "./components/UpperNavbar";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,13 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-[#e10514]">
-        
-        <UpperNavbar/>
-        
-        <Navbar/>
-       
+        <UpperNavbar />
+
+        <Navbar />
+
         {children}
-        </body>
+      </body>
     </html>
   );
 }
